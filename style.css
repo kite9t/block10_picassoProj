@@ -1,0 +1,134 @@
+header{
+    background-color: blanchedalmond;
+    text-align: right;
+    padding-top: 1em;
+
+}
+h1{
+    text-align: left;
+}
+
+a{
+    font-size:18px;
+}
+
+a:hover{
+    font-size:20px;
+    color: yellow;
+    background-color: black;
+}
+
+.block1{
+    background-color:#03989E;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    
+}
+
+.block2{
+    background-color:#03989E;
+    width: 640px;
+    height: 200px;
+    margin: 10px;
+}
+
+.block3{
+    background-color: #C9E265;
+    width: 640px;
+    height: 20px;
+    margin: 10px;
+}
+
+.circle{
+    position: absolute; 
+    width:auto;
+    length: auto;
+    border-radius: 50%;
+}
+
+
+.circle1{
+
+    background-color: #fe8888;
+    width: 25px; /* height size */
+    height: 25px; /* height size */
+    top: 145px; /* px from the top */
+    left: 55px; /* px from the left */
+    z-index: 1;
+
+}
+.circle2{
+
+    background-color: #fe8888;
+    width: 25px; /* height size */
+    height: 25px; /* height size */
+    top: 215px; /* px from the top */
+    left: 55px; /* px from the left */
+    z-index: 1;
+
+}
+.circle3{
+
+    background-color: yellow;
+    width: 70px; /* height size */
+    height: 70px; /* height size */
+    top: 150px; /* px from the top */
+    left: 125px; /* px from the left */
+    z-index: 1;
+
+}
+.circle4{
+
+    background-color: yellow;
+    width: 25px; /* height size */
+    height: 25px; /* height size */
+    top: 275px; /* px from the top */
+    left: 125px; /* px from the left */
+    z-index: 1;
+
+}
+.circle5{
+
+    background-color: #fe8888;
+    width: 25px; /* height size */
+    height: 25px; /* height size */
+    top: 155px; /* px from the top */
+    left: 280px; /* px from the left */
+    z-index: 1;
+
+}
+.circle6{
+
+    background-color: #fe8888;
+    width: 70px; /* height size */
+    height: 70px; /* height size */
+    top: 35vh; /* px from the top */
+    left: 195px; /* px from the left */
+    z-index: 1;
+
+}
+
+.pic{
+    display:row;
+    width:50%;
+    height:50%;
+    z-index: 2;
+    top:-125px;
+    position:relative;
+}
+
+.pic1{
+    top:-125px;
+    position:relative;
+}
+.container{
+    display:flex;
+    display:column;
+
+}
+
+input{
+    display:flex;
+    margin: 10px;
+}
